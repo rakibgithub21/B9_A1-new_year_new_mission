@@ -287,7 +287,7 @@
     height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    margin: 0 auto;
+    margin: 0 auto 120px;
 }
 
 .subscribe img {
@@ -358,3 +358,92 @@ input[type="email"]::placeholder {
 
 
 /* main style end */
+
+/* footer style start here */
+
+footer {
+    background: #070211;
+
+}
+
+.footer-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    color: white;
+    padding: 120px 0;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.home-address p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+
+
+.footer-container hr {
+    border: 1px solid rgba(255, 255, 255, 0.15) ;
+}
+
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0;
+    gap: 24px;
+}
+
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.copyright h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.unsubscribe h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fa-solid {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.phone-contact p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+/* footer style end here */
