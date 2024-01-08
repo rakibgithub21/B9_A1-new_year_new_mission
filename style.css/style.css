@@ -25,7 +25,6 @@
 
 .banner-title {
     color: #FFF;
-    text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400;
@@ -44,11 +43,15 @@
 /* -------------------- ------------------- */
 
 
-/* main style start here */
+/* main part  start here */
+
+
 
 /* discount section start here */
 .discount-section {
-    margin: 120px 0;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
 }
 
 .discount-container {
@@ -59,7 +62,6 @@
 
 .discount-offer {
     color: #F00;
-    text-align: center;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
@@ -69,7 +71,6 @@
 
 .discount-title {
     color: #F00;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -80,7 +81,6 @@
 
 .discount-catagories {
     color: #070211;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-style: normal;
@@ -90,6 +90,7 @@
 }
 
 /* discount section end here */
+/* ---------------- ---------------- */
 
 
 /* mid night  party section start here */
@@ -153,6 +154,7 @@
 
 
 /* mid night  party section end here */
+/* ---------------- ---------------- */
 
 
 /* location section start here */
@@ -216,7 +218,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 100px;
 }
 
@@ -278,7 +280,46 @@
 
 /* bonus section is end here */
 
+/* optional */
+.holidays-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto 0;
+}
 
+.holidays {
+    text-align: center;
+}
+
+.holidays h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holidays h3 {
+    color: #F00;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+/* optional */
 
 
 /* portfolio container style start here */
@@ -345,6 +386,7 @@
 
 
 /* portfolio container style end here */
+/* -------------------- --------------------- */
 
 
 /* subscribe container style start here */
@@ -427,9 +469,11 @@ input[type="email"]::placeholder {
 
 
 /* subscribe container style end here */
+/* ----------------- ------------------- */
 
 
 /* main style end */
+/* ----------------- ---------------- */
 
 /* footer style start here */
 
