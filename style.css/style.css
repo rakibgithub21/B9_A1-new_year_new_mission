@@ -178,7 +178,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    text-transform: capitalize;
 }
 
 .span {
@@ -188,7 +187,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    text-transform: capitalize;
 }
 
 
@@ -210,7 +208,75 @@
 
 /* location section end here */
 
+/* bonus section is start here */
 
+.best-offer-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.celebrate-image {
+    border: 16px solid #F00;
+    border-radius: 50%;
+}
+
+.img img {
+    padding: 49px;
+}
+
+.offer h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 16px 0 22px 0;
+}
+
+.offer p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.happy-new-year h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.happy-new-year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 16px 0 43px 0;
+}
+
+/* bonus section is end here */
 
 
 
