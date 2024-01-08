@@ -210,6 +210,11 @@
 
 /* location section end here */
 
+
+
+
+
+
 /* portfolio container style start here */
 
 .portfolio-container {
@@ -394,7 +399,7 @@ footer {
 
 
 .footer-container hr {
-    border: 1px solid rgba(255, 255, 255, 0.15) ;
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 
@@ -430,20 +435,34 @@ footer {
     line-height: normal;
 }
 
-.fa-solid {
-    height: 24px;
-    width: 24px;
-    margin-right: 10px;
+
+.address-container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.phone-contact p {
+.icon {
+    display: flex;
+}
+
+
+.address p {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    /* 166.667% */
+}
+
+.icon p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
 }
 
 /* footer style end here */
