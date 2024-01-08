@@ -1,0 +1,42 @@
+/* Universal Style is here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --------------- -------------- */
+
+
+/* header style is here */
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto 0;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(../resources/Banner\ Image.png);
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.banner-headline {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    font-family: 'Merriweather', serif;
+}
+/* -------------------- ------------------- */
