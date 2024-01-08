@@ -248,29 +248,113 @@
     margin-bottom: 48px;
 }
 
-.portfolio-gift-container{
+.portfolio-gift-container {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
-.portfolio img{
+
+.portfolio img {
     width: 100%;
 }
 
-.portfolio{
+.portfolio {
     width: 424px;
 }
 
-.portfolio:hover{
+.portfolio:hover {
     padding: 50px;
 }
-.portfolio:hover img{
+
+.portfolio:hover img {
     border-radius: 100px;
 }
 
 
 
 /* portfolio container style end here */
+
+
+/* subscribe container style start here */
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.subscribe img {
+    width: 130px;
+    height: 130px;
+}
+
+.subscribe-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 40px 0 22px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.form {
+    margin-top: 50px;
+    position: relative;
+}
+
+input[type="email"] {
+    width: 648px;
+    height: 72px;
+    padding: 25px 30px;
+    background: #FFF;
+    border-color: transparent;
+    border-radius: 50px 0 0 50px;
+}
+
+input[type="email"]::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form input[type="submit"] {
+    position: absolute;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 25px 56px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* subscribe container style end here */
 
 
 /* main style end */
