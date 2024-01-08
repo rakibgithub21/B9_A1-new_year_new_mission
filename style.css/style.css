@@ -210,6 +210,67 @@
 
 /* location section end here */
 
+/* portfolio container style start here */
+
+.portfolio-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto 120px;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 16px 0 22px 0;
+}
+
+.portfolio-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.portfolio-gift-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.portfolio img{
+    width: 100%;
+}
+
+.portfolio{
+    width: 424px;
+}
+
+.portfolio:hover{
+    padding: 50px;
+}
+.portfolio:hover img{
+    border-radius: 100px;
+}
+
+
+
+/* portfolio container style end here */
 
 
 /* main style end */
